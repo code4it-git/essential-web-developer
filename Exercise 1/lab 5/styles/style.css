@@ -1,0 +1,23 @@
+body {
+    
+    background-color:azure;
+}
+
+p {
+    
+    color: brown;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#pUno
+{
+    
+     color: blue;
+}
+
+.claseuno
+{
+    
+    color: blueviolet;
+}

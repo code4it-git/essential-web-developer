@@ -1,0 +1,34 @@
+<html>
+<head>
+    
+<script type="application/javascript">
+    function fnSuma()
+    {
+        var num1 =  parseInt( document.getElementById('txtNum1').value);
+        var num2 =  parseInt( document.getElementById('txtNum2').value);
+        var suma = num1+num2;
+        document.getElementById('pSuma').innerHTML = suma;
+    }
+    function fnResta()
+    {
+        var num1 =  parseInt( document.getElementById('txtNum1').value);
+        var num2 =  parseInt( document.getElementById('txtNum2').value);
+        var resta = num1-num2;
+        document.getElementById('pResta').innerHTML = resta;
+    }
+    
+</script>    
+</head>
+<body>
+<h1> Code4IT </h1>
+    <strong>Hola</strong> Mundo
+    <br/>
+    <input type="button" value="Suma" onclick="fnSuma(5,4);" id="btnHola"/>
+    <input type="button" value="Resta" onclick="fnResta(5,4);" id="btnHolaResta"/>
+    <input type="text"  id="txtNum1" />
+    <input type="text"  id="txtNum2" />
+    <p id='pSuma'></p>
+    <p id='pResta'></p>
+   
+</body>
+</html>
